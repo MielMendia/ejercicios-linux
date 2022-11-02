@@ -1,0 +1,71 @@
+ls /bin
+
+ls /tmp
+
+ls -r/etc/t*
+
+ls -a /dev/tty
+
+ls -a /dev/tty*[1-4]
+
+ls -a /dev/t*c1
+
+ls -a
+
+ls -d /etc/[^t]*
+
+cd /tmp 
+mkdir PRUEBA
+
+cd /tmp
+ls
+
+date
+
+cd /home
+
+ls
+
+ls -l
+
+
+
+cd ..
+mkdir /home/miel/Escritorio/tmp/PRUEBA
+mkdir /home/miel/Escritorio/tmp/PRUEBA/dir1
+mkdir /home/miel/Escritorio/tmp/PRUEBA/dir2
+mkdir /home/miel/Escritorio/tmp/PRUEBA/dir3
+mkdir /home/miel/Escritorio/tmp/PRUEBA/dir1/dir11
+mkdir /home/miel/Escritorio/tmp/PRUEBA/dir3/dir31
+mkdir /home/miel/Escritorio/tmp/PRUEBA/dir3/dir31/dir311
+mkdir /home/miel/Escritorio/tmp/PRUEBA/dir3/dir31/dir312
+
+
+
+
+
+
+
+Co /bin/?a?? /home/miel/Escritorio/tmp/PRUEBA/dir3/dir31/dir311
+
+cp -r /lib64 /home/miel/Escritorio/tmp/PRUEBA/dir1/dir11
+
+mv /home/miel/Escritorio/tmp/PRUEBA/dir3/dir31 /home/miel/Escritorio/tmp/PRUEBA/dir1
+
+mv /home/miel/Escritorio/tmp/PRUEBA/dir3/mensaje /home/miel/Escritorio/tmp/PRUEBA/dir3/.mensaje
+
+rm -r /home/miel/Escritorio/tmp/PRUEBA/dir1
+
+cp /dev/t???[a*b] /home/miel/Escritorio/tmp/PRUEBA/dir3/dir31/dir312
+
+rm -r PRUEBA/dir2/dir31/dir312/???q[^b
+
+mv PRUEBA/dir2/dir31/dir312 PRUEBA/dir3
+
+ln -s /home/miel/Escritorio/tmp/PRUEBA/dir1
+PRUEBA/dir3/enlacedir1
+
+cd dir3 mkdir enlacedir1/nuevo1
+
+cp -r /bin/u* enlacedir1/nuevo1/
+
