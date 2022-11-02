@@ -1,7 +1,6 @@
 # ejercicios-linux
 1. Listar todos los archivos del directorio bin. 
-Listar todos los archivos del directorio tmp. 
-2. 
+Listar todos los archivos del directorio tmp.  
 3. Listar todos los archivos del directorio etc que empiecen por t en orden 
 inverso. 
 4. Listar todos los archivos del directorio dev que empiecen por tty y tengan 5 
